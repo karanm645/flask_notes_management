@@ -1,15 +1,15 @@
-from flask import Blueprint  # bp means bunch of routes defined
+from flask import Blueprint, render_template  # bp means bunch of routes defined
 
 auth = Blueprint("auth", __name__)
 
 @auth.route('/login')
 def login():
-  return "<p>Login</p>"
+    return render_template("login.html", text="testing", user="Karan")
 
 @auth.route('/logout')
 def logout():
-  return "<p>Logout</p>"
+    return render_template("login.html", text="testing", user="Karan")
 
-@auth.route('/signup')
+@auth.route('/sign-up')
 def sign_up():
-  return "<p>Signup</p>"
+    return render_template("sign_up.html", boolean=True)
