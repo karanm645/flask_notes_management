@@ -7,6 +7,7 @@ from . import db
 views = Blueprint('views', __name__)
 
 @views.route('/', methods=['GET', 'POST']) #decorator + route
+@views.route('/', methods=['GET', 'POST']) #decorator + route
 @login_required
 def home(): # will run for root page
     if request.method == "POST":
