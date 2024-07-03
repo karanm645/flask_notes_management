@@ -42,7 +42,8 @@ A step-by-step series of examples that tell you how to get a development environ
    ```
 4. Initialize the database:
    ```python
-   flask db upgrade```
+   flask db upgrade
+   ```
 6. Run the application:
    ```python
    flask db upgrade
@@ -50,3 +51,8 @@ A step-by-step series of examples that tell you how to get a development environ
 
 ### Usage
 After running the application, visit http://127.0.0.1:5000 in your web browser to start managing your notes. Log in or sign up to secure your notes.
+
+### Conclusion
+As someone who started off with Ruby on Rails, I am thrilled to learn Python because of it's numerous advantages in libraries and machine learning capabilities. Your input is valuable to me, so please don't hesitate to reach out! My email is karanm645@gmail.com.
+
+Thank you!
