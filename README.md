@@ -2,6 +2,9 @@
 
 This is a web-based application built with Flask that allows users to create, view, update, and delete notes. It includes user authentication, responsive design, and a straightforward interface. The application is designed to be simple and functional, making it a perfect starter project for learning Flask and web development for me!!
 
+## Check Out My Article on this Application
+- Click [here](https://karans-blog.onrender.com/blog_posts/17") to read the how I built this tool on my blog.
+
 ## Features
 
 - **User Authentication**: Register and log in to access personal notes.
