@@ -46,7 +46,7 @@ A step-by-step series of examples that tell you how to get a development environ
    ```
 6. Run the application:
    ```python
-   flask db upgrade
+   python3 main.py
    ```
 
 ### Usage
